@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(40deg, black, rgb(205, 153, 221));
+    height: 100vh;
+    color: #fdfdfdd7;
+    font-family: sans-serif;
+}
+
+.calc {
+    position: absolute;
+    background-color: rgb(205, 153, 221);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 5%;
+    text-align: center;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #7c4692;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.botao:hover {
+    background: #f1bbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#titulo {
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#jhemyly1 {
+    text-align: center;
+}
+
+#jhemyly2 {
+    text-align: center;
+}
