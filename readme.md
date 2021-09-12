@@ -7,4 +7,4 @@
 
 * Digite o primeiro número
 * Digite o segundo número
-Logo após cliquei na função que deseja (somar, subtrair...)
+<p>Logo após cliquei na função que deseja (somar, subtrair...)</p>
