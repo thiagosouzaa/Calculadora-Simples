@@ -4,15 +4,15 @@ body {
 }
 
 .fundo {
-    background-image: linear-gradient(40deg, black, rgb(205, 153, 221));
+    background: linear-gradient(162deg, rgba(67,4,28,1) 0%, rgba(56,3,21,1) 35%, rgba(33,1,7,1) 100%);
     height: 100vh;
-    color: #fdfdfdd7;
+    color: white;
     font-family: sans-serif;
 }
 
 .calc {
     position: absolute;
-    background-color: rgb(205, 153, 221);
+    background-color: #520500;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,33 +21,40 @@ body {
     text-align: center;
 }
 
+.box-number {
+    border: 2px solid #a00b00;
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+}
+.space-button {
+    padding-top: 20px;
+}
+
 .botao {
     font-size: 1.2em;
-    background: #7c4692;
+    background: #7e0800;
     border: 0;
     margin-bottom: 1em;
-    color: #ffffff;
+    color: white;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    
 }
 
 .botao:hover {
-    background: #f1bbff;
+    background: #D10E00;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
-#titulo {
+.title {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-#jhemyly1 {
-    text-align: center;
-}
-
-#jhemyly2 {
-    text-align: center;
 }
