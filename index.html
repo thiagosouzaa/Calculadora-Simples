@@ -6,42 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora.html</title>
-    <link rel="stylesheet" href="index.js"> <!-- Link de arquivos JS -->
+    <script src="index.js"></script> <!-- Link de arquivos JS -->
     <link rel="stylesheet" href="style.css"> <!-- Link de arquivos CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+    </style>
 </head>
 
 <body>
     <div class="fundo">
         <div class="calc">
             <!-- Titulo principal -->
-            <h1 id="titulo">
-                <h1>Calculadora Simples</h1>
+            <h1 class="title">Calculadora Simples</h1>
 
-                <!-- Entrada de Dados via formulário -->
-                <form name="MinhaCalculadora" action=" " method="POST">
-                    <strong>
-                        <h3 id="jhemyly1">Primeiro Número
-            </h1>
-            </strong>
-            <P></P><input type="number" name="n1" />
-            <p></p>
-            <strong>
-                <h3 id="jhemyly2">Segundo Número</h1>
-            </strong>
-            <P></P>
-            </P><input type="number" name="n2" />
-            <p></p>
-
-            <!--Botões de Escolha -->
-            <input type="button" name="btn_somar" value="Somar (+)" onclick="somar()" class="botao" />
-            <input type="button" name="btn_subtrair" value="Subtrair (-)" onclick="subtrair()" class="botao" />
-            <input type="button" name="btn_multiplicar" value="Multiplicar (*)" onclick="multiplicação()"
-                class="botao" />
-            <input type="button" name="btn_divisao" value="Divisão (/)" onclick="divisão()" class="botao" />
+            <!-- Entrada de Dados via formulário -->
+            <form name="MinhaCalculadora" action=" " method="POST">
+                <h3 class="title"><strong>Primeiro Número</strong></h3>
+                <input type="number" name="n1" class="box-number" placeholder="Digite seu número" />
+                <h3 class="title"><strong>Segundo Número</strong></h3>
+                <input type="number" name="n2" class="box-number" placeholder="Digite seu número"/>
+                    <!--Botões de Escolha -->
+                <section class="space-button">
+                    <input type="button" name="btn_somar" value="Somar (+)"  onclick="somar()" class="botao"/>
+                    <input type="button" name="btn_subtrair" value="Subtrair (-)" onclick="subtrair()" class="botao"/>
+                    <input type="button" name="btn_multiplicar" value="Multiplicar (*)" onclick="multiplicação()" class="botao"/>
+                    <input type="button" name="btn_divisao" value="Divisão (/)" onclick="divisão()" class="botao"/>
+                </section>
             </form>
         </div>
     </div>
-    <script src="index.js"></script>
 </body>
-
 </html>
