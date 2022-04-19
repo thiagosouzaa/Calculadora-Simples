@@ -2,9 +2,6 @@ var n1 // variável número 1
 var n2// variável número 2
 var resultado // variável resultado
 
-if (n1.length === 0 || n2.length === 0) {
-    alert('Verifique os dados novamente!')
-}
 
 function somar() {
     /* Entrada de Dados */
